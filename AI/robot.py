@@ -10,7 +10,7 @@ robot_mouth = pyttsx3.init()
 robot_brain = ""
 
 def weather(city_name):
-	api_key = "d8ef9f5dd3b7079de6e7296aefe4f6e3"
+	api_key = ""
 	base_url = "http://api.openweathermap.org/data/2.5/weather?"
 	complete_url = base_url + "appid=" + api_key + "&q="+ city_name
 	response = requests.get(complete_url)
